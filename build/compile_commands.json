@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/developer/cpp/leetcode/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++14 -o CMakeFiles/leetcode.dir/daily/findRedundantConnection.cc.o -c /Users/developer/cpp/leetcode/daily/findRedundantConnection.cc",
+  "file": "/Users/developer/cpp/leetcode/daily/findRedundantConnection.cc"
+}
+]

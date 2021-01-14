@@ -1,0 +1,86 @@
+cmake_minimum_required(VERSION 3.17)
+project(leetcode)
+
+set(CMAKE_CXX_STANDARD 14)
+
+#add_executable(leetcode twoSum/twoSum.cpp)
+#add_executable(leetcode addBinary/addBinary.cpp)
+#add_executable(leetcode reverseInt/reverseInt.cc)
+#add_executable(leetcode recursion/reverseString/reverseString.cc)
+#add_executable(leetcode recursion/swapPairs/swapPairs.cc)
+#add_executable(leetcode recursion/reverseLinkedList/reverseLinkedList.cc)
+#add_executable(leetcode recursion/searchBST/searchBST.cc)
+#add_executable(leetcode recursion/pascalTriangle/pascalTriangle.cc)
+#add_executable(leetcode recursion/climbingStairs/climbingStirs.cc)
+#add_executable(leetcode recursion/depthOfBinaryTree/depthOfBinaryTree.cc)
+#add_executable(leetcode recursion/pow/pow.cc)
+#add_executable(leetcode recursion/mergeLinkList/mergeLinkList.cc)
+#add_executable(leetcode recursion/chapter1/kSymbolInGrammar/kSymbolInGrammar.cc)
+#add_executable(leetcode recursion/uniqueBST/uniqueBST.cc)
+#add_executable(leetcode recursion/chapter2/mergeSort/mergeSort.cc)
+#add_executable(leetcode recursion/chapter2/validateBST/validateBST.cc)
+#add_executable(leetcode recursion/chapter2/searchMatrix/searchMatrix.cc)
+
+#add_executable(leetcode recursion/chapter2/quickSort/quickSort.cc)
+#add_executable(leetcode recursion/chapter2/quickSort/quickSortWithLessFunc.cc)
+#add_executable(leetcode recursion/chapter2/nqueen/nqueenWithoutBackTracing.cc)
+#add_executable(leetcode recursion/chapter2/sudoku/sudoku.cc)
+#add_executable(leetcode recursion/chapter2/combinations/combinations.cc)
+#add_executable(leetcode recursion/chapter2/sameTree/sameTree.cc)
+#add_executable(leetcode recursion/chapter2/genParentheses/genParentheses.cc)
+#add_executable(leetcode recursion/chapter2/traversalBinaryTree/inorder/inorder.cc)
+#add_executable(leetcode recursion/chapter2/traversalBinaryTree/levelOrder/levelOrder.cc)
+#add_executable(leetcode recursion/chapter2/largestRectangleArea/largestRectangleArea.cc)
+#add_executable(leetcode recursion/chapter2/permutations/permutations.cc)
+#add_executable(leetcode recursion/chapter2/letterCombinations/letterCombinations.cc)
+#add_executable(leetcode recursion/chapter2/skyline/skyline.cc)
+
+#add_executable(leetcode swordOffer/replaceSpace/replaceSpace.cc)
+#add_executable(leetcode swordOffer/minArray/minArray.cc)
+#add_executable(leetcode swordOffer/printNumbers/printNumbers.cc)
+#add_executable(leetcode swordOffer/exchangeOdd/exchangeOdd.cc)
+#add_executable(leetcode swordOffer/spiralOrder/spiralOrder.cc)
+#add_executable(leetcode swordOffer/majorityElement/majorityElement.cc)
+#add_executable(leetcode swordOffer/countInSortedArr/countInSortedArr.cc)
+#add_executable(leetcode swordOffer/twoSum/twoSum.cc)
+#add_executable(leetcode swordOffer/continuSeq/continuSeq.cc)
+#add_executable(leetcode swordOffer/reverseWords/reverseWords.cc)
+#add_executable(leetcode swordOffer/reverseLeftWords/reverseLeftWords.cc)
+#add_executable(leetcode swordOffer/maxSubArray/maxSubArray.cc)
+#add_executable(leetcode swordOffer/reverseList/reverseList.cc)
+#add_executable(leetcode swordOffer/findRepeatNumber/findRepeatNumber.cc)
+#add_executable(leetcode swordOffer/cqueue/cqueue.cc)
+#add_executable(leetcode swordOffer/kthFromEnd/kthFromEnd.cc)
+#add_executable(leetcode swordOffer/lastRemaining/lastRemaining.cc)
+#add_executable(leetcode swordOffer/numWays/numWays.cc)
+#add_executable(leetcode swordOffer/intersectionNode/intersectionNode.cc)
+#add_executable(leetcode swordOffer/firstUniqChar/firstUniqChar.cc)
+#add_executable(leetcode swordOffer/reversePrint/reversePrint.cc)
+#add_executable(leetcode swordOffer/constructArr/constructArr.cc)
+#add_executable(leetcode swordOffer/maxQueue.cc)
+add_executable(leetcode swordOffer/linklist/deleteNode.cc)
+
+
+
+
+#add_executable(leetcode crackingTheCodingInterview/compressString.cc)
+#add_executable(leetcode crackingTheCodingInterview/isUnique.cc)
+#add_executable(leetcode crackingTheCodingInterview/mergeVector.cc)
+#add_executable(leetcode crackingTheCodingInterview/minStack.cc)
+
+#add_executable(leetcode dp/maxProduct.cc)
+#add_executable(leetcode dp/maxSubarraySumCircular.cc)
+
+#add_executable(leetcode unionFind/calcEquation.cc)
+
+#add_executable(leetcode daily/canPlaceFlowers.cc)
+#add_executable(leetcode daily/maxSlidingWindow.cc)
+#add_executable(leetcode daily/partition.cc)
+#add_executable(leetcode daily/findRedundantConnection.cc)
+
+#add_executable(leetcode designPattern/factory/factory.cc)
+
+
+
+
+

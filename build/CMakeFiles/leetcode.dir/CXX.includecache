@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/developer/cpp/leetcode/daily/findRedundantConnection.cc
+iostream
+-
+vector
+-
+unordered_map
+-
+stack
+-
+
