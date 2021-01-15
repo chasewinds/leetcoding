@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode.dir/swordOffer/linklist/deleteNode.cc.o"
+  "CMakeFiles/leetcode.dir/swordOffer/dfs/mirrorTree.cc.o"
   "leetcode"
   "leetcode.pdb"
 )

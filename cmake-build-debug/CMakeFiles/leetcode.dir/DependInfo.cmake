@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/developer/cpp/leetcode/swordOffer/linklist/deleteNode.cc" "/Users/developer/cpp/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/swordOffer/linklist/deleteNode.cc.o"
+  "/Users/main/cpp/src/leetcode/swordOffer/dfs/mirrorTree.cc" "/Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/swordOffer/dfs/mirrorTree.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

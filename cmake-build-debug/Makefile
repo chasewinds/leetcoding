@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/developer/cpp/leetcode
+CMAKE_SOURCE_DIR = /Users/main/cpp/src/leetcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/developer/cpp/leetcode/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/main/cpp/src/leetcode/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/developer/cpp/leetcode/cmake-build-debug/CMakeFiles /Users/developer/cpp/leetcode/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles /Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/developer/cpp/leetcode/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
-swordOffer/linklist/deleteNode.o: swordOffer/linklist/deleteNode.cc.o
+swordOffer/dfs/mirrorTree.o: swordOffer/dfs/mirrorTree.cc.o
 
-.PHONY : swordOffer/linklist/deleteNode.o
+.PHONY : swordOffer/dfs/mirrorTree.o
 
 # target to build an object file
-swordOffer/linklist/deleteNode.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/linklist/deleteNode.cc.o
-.PHONY : swordOffer/linklist/deleteNode.cc.o
+swordOffer/dfs/mirrorTree.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/mirrorTree.cc.o
+.PHONY : swordOffer/dfs/mirrorTree.cc.o
 
-swordOffer/linklist/deleteNode.i: swordOffer/linklist/deleteNode.cc.i
+swordOffer/dfs/mirrorTree.i: swordOffer/dfs/mirrorTree.cc.i
 
-.PHONY : swordOffer/linklist/deleteNode.i
+.PHONY : swordOffer/dfs/mirrorTree.i
 
 # target to preprocess a source file
-swordOffer/linklist/deleteNode.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/linklist/deleteNode.cc.i
-.PHONY : swordOffer/linklist/deleteNode.cc.i
+swordOffer/dfs/mirrorTree.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/mirrorTree.cc.i
+.PHONY : swordOffer/dfs/mirrorTree.cc.i
 
-swordOffer/linklist/deleteNode.s: swordOffer/linklist/deleteNode.cc.s
+swordOffer/dfs/mirrorTree.s: swordOffer/dfs/mirrorTree.cc.s
 
-.PHONY : swordOffer/linklist/deleteNode.s
+.PHONY : swordOffer/dfs/mirrorTree.s
 
 # target to generate assembly for a file
-swordOffer/linklist/deleteNode.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/linklist/deleteNode.cc.s
-.PHONY : swordOffer/linklist/deleteNode.cc.s
+swordOffer/dfs/mirrorTree.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/mirrorTree.cc.s
+.PHONY : swordOffer/dfs/mirrorTree.cc.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode"
-	@echo "... swordOffer/linklist/deleteNode.o"
-	@echo "... swordOffer/linklist/deleteNode.i"
-	@echo "... swordOffer/linklist/deleteNode.s"
+	@echo "... swordOffer/dfs/mirrorTree.o"
+	@echo "... swordOffer/dfs/mirrorTree.i"
+	@echo "... swordOffer/dfs/mirrorTree.s"
 .PHONY : help
 
 

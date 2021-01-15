@@ -59,7 +59,8 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(leetcode swordOffer/constructArr/constructArr.cc)
 #add_executable(leetcode swordOffer/maxQueue.cc)
 #add_executable(leetcode swordOffer/linklist/deleteNode.cc)
-add_executable(leetcode swordOffer/dfs/searchPathInMatrix.cc)
+#add_executable(leetcode swordOffer/dfs/searchPathInMatrix.cc)
+add_executable(leetcode swordOffer/dfs/mirrorTree.cc)
 
 
 
