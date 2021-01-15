@@ -143,32 +143,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
-swordOffer/dfs/isSymmetric.o: swordOffer/dfs/isSymmetric.cc.o
+swordOffer/dfs/kthLargest.o: swordOffer/dfs/kthLargest.cc.o
 
-.PHONY : swordOffer/dfs/isSymmetric.o
+.PHONY : swordOffer/dfs/kthLargest.o
 
 # target to build an object file
-swordOffer/dfs/isSymmetric.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/isSymmetric.cc.o
-.PHONY : swordOffer/dfs/isSymmetric.cc.o
+swordOffer/dfs/kthLargest.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/kthLargest.cc.o
+.PHONY : swordOffer/dfs/kthLargest.cc.o
 
-swordOffer/dfs/isSymmetric.i: swordOffer/dfs/isSymmetric.cc.i
+swordOffer/dfs/kthLargest.i: swordOffer/dfs/kthLargest.cc.i
 
-.PHONY : swordOffer/dfs/isSymmetric.i
+.PHONY : swordOffer/dfs/kthLargest.i
 
 # target to preprocess a source file
-swordOffer/dfs/isSymmetric.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/isSymmetric.cc.i
-.PHONY : swordOffer/dfs/isSymmetric.cc.i
+swordOffer/dfs/kthLargest.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/kthLargest.cc.i
+.PHONY : swordOffer/dfs/kthLargest.cc.i
 
-swordOffer/dfs/isSymmetric.s: swordOffer/dfs/isSymmetric.cc.s
+swordOffer/dfs/kthLargest.s: swordOffer/dfs/kthLargest.cc.s
 
-.PHONY : swordOffer/dfs/isSymmetric.s
+.PHONY : swordOffer/dfs/kthLargest.s
 
 # target to generate assembly for a file
-swordOffer/dfs/isSymmetric.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/isSymmetric.cc.s
-.PHONY : swordOffer/dfs/isSymmetric.cc.s
+swordOffer/dfs/kthLargest.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/kthLargest.cc.s
+.PHONY : swordOffer/dfs/kthLargest.cc.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode"
-	@echo "... swordOffer/dfs/isSymmetric.o"
-	@echo "... swordOffer/dfs/isSymmetric.i"
-	@echo "... swordOffer/dfs/isSymmetric.s"
+	@echo "... swordOffer/dfs/kthLargest.o"
+	@echo "... swordOffer/dfs/kthLargest.i"
+	@echo "... swordOffer/dfs/kthLargest.s"
 .PHONY : help
 
 

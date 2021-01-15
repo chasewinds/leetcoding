@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode.dir/swordOffer/dfs/isSymmetric.cc.o"
+  "CMakeFiles/leetcode.dir/swordOffer/dfs/kthLargest.cc.o"
   "leetcode"
   "leetcode.pdb"
 )
