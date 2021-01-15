@@ -143,32 +143,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
-swordOffer/dfs/kthLargest.o: swordOffer/dfs/kthLargest.cc.o
+swordOffer/dfs/maxDepth.o: swordOffer/dfs/maxDepth.cc.o
 
-.PHONY : swordOffer/dfs/kthLargest.o
+.PHONY : swordOffer/dfs/maxDepth.o
 
 # target to build an object file
-swordOffer/dfs/kthLargest.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/kthLargest.cc.o
-.PHONY : swordOffer/dfs/kthLargest.cc.o
+swordOffer/dfs/maxDepth.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/maxDepth.cc.o
+.PHONY : swordOffer/dfs/maxDepth.cc.o
 
-swordOffer/dfs/kthLargest.i: swordOffer/dfs/kthLargest.cc.i
+swordOffer/dfs/maxDepth.i: swordOffer/dfs/maxDepth.cc.i
 
-.PHONY : swordOffer/dfs/kthLargest.i
+.PHONY : swordOffer/dfs/maxDepth.i
 
 # target to preprocess a source file
-swordOffer/dfs/kthLargest.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/kthLargest.cc.i
-.PHONY : swordOffer/dfs/kthLargest.cc.i
+swordOffer/dfs/maxDepth.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/maxDepth.cc.i
+.PHONY : swordOffer/dfs/maxDepth.cc.i
 
-swordOffer/dfs/kthLargest.s: swordOffer/dfs/kthLargest.cc.s
+swordOffer/dfs/maxDepth.s: swordOffer/dfs/maxDepth.cc.s
 
-.PHONY : swordOffer/dfs/kthLargest.s
+.PHONY : swordOffer/dfs/maxDepth.s
 
 # target to generate assembly for a file
-swordOffer/dfs/kthLargest.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/kthLargest.cc.s
-.PHONY : swordOffer/dfs/kthLargest.cc.s
+swordOffer/dfs/maxDepth.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/maxDepth.cc.s
+.PHONY : swordOffer/dfs/maxDepth.cc.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode"
-	@echo "... swordOffer/dfs/kthLargest.o"
-	@echo "... swordOffer/dfs/kthLargest.i"
-	@echo "... swordOffer/dfs/kthLargest.s"
+	@echo "... swordOffer/dfs/maxDepth.o"
+	@echo "... swordOffer/dfs/maxDepth.i"
+	@echo "... swordOffer/dfs/maxDepth.s"
 .PHONY : help
 
 
