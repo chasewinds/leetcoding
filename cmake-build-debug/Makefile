@@ -143,32 +143,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
-swordOffer/dfs/maxDepth.o: swordOffer/dfs/maxDepth.cc.o
+swordOffer/dp/numways.o: swordOffer/dp/numways.cc.o
 
-.PHONY : swordOffer/dfs/maxDepth.o
+.PHONY : swordOffer/dp/numways.o
 
 # target to build an object file
-swordOffer/dfs/maxDepth.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/maxDepth.cc.o
-.PHONY : swordOffer/dfs/maxDepth.cc.o
+swordOffer/dp/numways.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.o
+.PHONY : swordOffer/dp/numways.cc.o
 
-swordOffer/dfs/maxDepth.i: swordOffer/dfs/maxDepth.cc.i
+swordOffer/dp/numways.i: swordOffer/dp/numways.cc.i
 
-.PHONY : swordOffer/dfs/maxDepth.i
+.PHONY : swordOffer/dp/numways.i
 
 # target to preprocess a source file
-swordOffer/dfs/maxDepth.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/maxDepth.cc.i
-.PHONY : swordOffer/dfs/maxDepth.cc.i
+swordOffer/dp/numways.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.i
+.PHONY : swordOffer/dp/numways.cc.i
 
-swordOffer/dfs/maxDepth.s: swordOffer/dfs/maxDepth.cc.s
+swordOffer/dp/numways.s: swordOffer/dp/numways.cc.s
 
-.PHONY : swordOffer/dfs/maxDepth.s
+.PHONY : swordOffer/dp/numways.s
 
 # target to generate assembly for a file
-swordOffer/dfs/maxDepth.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dfs/maxDepth.cc.s
-.PHONY : swordOffer/dfs/maxDepth.cc.s
+swordOffer/dp/numways.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.s
+.PHONY : swordOffer/dp/numways.cc.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode"
-	@echo "... swordOffer/dfs/maxDepth.o"
-	@echo "... swordOffer/dfs/maxDepth.i"
-	@echo "... swordOffer/dfs/maxDepth.s"
+	@echo "... swordOffer/dp/numways.o"
+	@echo "... swordOffer/dp/numways.i"
+	@echo "... swordOffer/dp/numways.s"
 .PHONY : help
 
 

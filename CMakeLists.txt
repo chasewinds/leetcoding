@@ -63,7 +63,12 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(leetcode swordOffer/dfs/mirrorTree.cc)
 #add_executable(leetcode swordOffer/dfs/isSymmetric.cc)
 #add_executable(leetcode swordOffer/dfs/kthLargest.cc)
-add_executable(leetcode swordOffer/dfs/maxDepth.cc)
+#add_executable(leetcode swordOffer/dfs/maxDepth.cc)
+
+#add_executable(leetcode swordOffer/bfs/levelOrder.cc)
+
+add_executable(leetcode swordOffer/dp/numways.cc)
+
 
 
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode.dir/swordOffer/dfs/maxDepth.cc.o"
+  "CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.o"
   "leetcode"
   "leetcode.pdb"
 )
