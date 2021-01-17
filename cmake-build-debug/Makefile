@@ -143,32 +143,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
-multiThreading/DiningPhilosophers.o: multiThreading/DiningPhilosophers.cc.o
+swordOffer/dp/translateNum.o: swordOffer/dp/translateNum.cc.o
 
-.PHONY : multiThreading/DiningPhilosophers.o
+.PHONY : swordOffer/dp/translateNum.o
 
 # target to build an object file
-multiThreading/DiningPhilosophers.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/multiThreading/DiningPhilosophers.cc.o
-.PHONY : multiThreading/DiningPhilosophers.cc.o
+swordOffer/dp/translateNum.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/translateNum.cc.o
+.PHONY : swordOffer/dp/translateNum.cc.o
 
-multiThreading/DiningPhilosophers.i: multiThreading/DiningPhilosophers.cc.i
+swordOffer/dp/translateNum.i: swordOffer/dp/translateNum.cc.i
 
-.PHONY : multiThreading/DiningPhilosophers.i
+.PHONY : swordOffer/dp/translateNum.i
 
 # target to preprocess a source file
-multiThreading/DiningPhilosophers.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/multiThreading/DiningPhilosophers.cc.i
-.PHONY : multiThreading/DiningPhilosophers.cc.i
+swordOffer/dp/translateNum.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/translateNum.cc.i
+.PHONY : swordOffer/dp/translateNum.cc.i
 
-multiThreading/DiningPhilosophers.s: multiThreading/DiningPhilosophers.cc.s
+swordOffer/dp/translateNum.s: swordOffer/dp/translateNum.cc.s
 
-.PHONY : multiThreading/DiningPhilosophers.s
+.PHONY : swordOffer/dp/translateNum.s
 
 # target to generate assembly for a file
-multiThreading/DiningPhilosophers.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/multiThreading/DiningPhilosophers.cc.s
-.PHONY : multiThreading/DiningPhilosophers.cc.s
+swordOffer/dp/translateNum.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/translateNum.cc.s
+.PHONY : swordOffer/dp/translateNum.cc.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode"
-	@echo "... multiThreading/DiningPhilosophers.o"
-	@echo "... multiThreading/DiningPhilosophers.i"
-	@echo "... multiThreading/DiningPhilosophers.s"
+	@echo "... swordOffer/dp/translateNum.o"
+	@echo "... swordOffer/dp/translateNum.i"
+	@echo "... swordOffer/dp/translateNum.s"
 .PHONY : help
 
 
