@@ -143,32 +143,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
-multiThreading/printInOrder.o: multiThreading/printInOrder.cc.o
+multiThreading/DiningPhilosophers.o: multiThreading/DiningPhilosophers.cc.o
 
-.PHONY : multiThreading/printInOrder.o
+.PHONY : multiThreading/DiningPhilosophers.o
 
 # target to build an object file
-multiThreading/printInOrder.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.o
-.PHONY : multiThreading/printInOrder.cc.o
+multiThreading/DiningPhilosophers.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/multiThreading/DiningPhilosophers.cc.o
+.PHONY : multiThreading/DiningPhilosophers.cc.o
 
-multiThreading/printInOrder.i: multiThreading/printInOrder.cc.i
+multiThreading/DiningPhilosophers.i: multiThreading/DiningPhilosophers.cc.i
 
-.PHONY : multiThreading/printInOrder.i
+.PHONY : multiThreading/DiningPhilosophers.i
 
 # target to preprocess a source file
-multiThreading/printInOrder.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.i
-.PHONY : multiThreading/printInOrder.cc.i
+multiThreading/DiningPhilosophers.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/multiThreading/DiningPhilosophers.cc.i
+.PHONY : multiThreading/DiningPhilosophers.cc.i
 
-multiThreading/printInOrder.s: multiThreading/printInOrder.cc.s
+multiThreading/DiningPhilosophers.s: multiThreading/DiningPhilosophers.cc.s
 
-.PHONY : multiThreading/printInOrder.s
+.PHONY : multiThreading/DiningPhilosophers.s
 
 # target to generate assembly for a file
-multiThreading/printInOrder.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.s
-.PHONY : multiThreading/printInOrder.cc.s
+multiThreading/DiningPhilosophers.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/multiThreading/DiningPhilosophers.cc.s
+.PHONY : multiThreading/DiningPhilosophers.cc.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode"
-	@echo "... multiThreading/printInOrder.o"
-	@echo "... multiThreading/printInOrder.i"
-	@echo "... multiThreading/printInOrder.s"
+	@echo "... multiThreading/DiningPhilosophers.o"
+	@echo "... multiThreading/DiningPhilosophers.i"
+	@echo "... multiThreading/DiningPhilosophers.s"
 .PHONY : help
 
 

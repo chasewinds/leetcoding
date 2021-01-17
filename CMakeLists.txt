@@ -89,8 +89,8 @@ set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(leetcode designPattern/factory/factory.cc)
 
-add_executable(leetcode multiThreading/printInOrder.cc)
-
+#add_executable(leetcode multiThreading/printInOrder.cc)
+add_executable(leetcode multiThreading/DiningPhilosophers.cc)
 
 
 
