@@ -143,32 +143,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
-swordOffer/dp/translateNum.o: swordOffer/dp/translateNum.cc.o
+swordOffer/dp/maxValue.o: swordOffer/dp/maxValue.cc.o
 
-.PHONY : swordOffer/dp/translateNum.o
+.PHONY : swordOffer/dp/maxValue.o
 
 # target to build an object file
-swordOffer/dp/translateNum.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/translateNum.cc.o
-.PHONY : swordOffer/dp/translateNum.cc.o
+swordOffer/dp/maxValue.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.o
+.PHONY : swordOffer/dp/maxValue.cc.o
 
-swordOffer/dp/translateNum.i: swordOffer/dp/translateNum.cc.i
+swordOffer/dp/maxValue.i: swordOffer/dp/maxValue.cc.i
 
-.PHONY : swordOffer/dp/translateNum.i
+.PHONY : swordOffer/dp/maxValue.i
 
 # target to preprocess a source file
-swordOffer/dp/translateNum.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/translateNum.cc.i
-.PHONY : swordOffer/dp/translateNum.cc.i
+swordOffer/dp/maxValue.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.i
+.PHONY : swordOffer/dp/maxValue.cc.i
 
-swordOffer/dp/translateNum.s: swordOffer/dp/translateNum.cc.s
+swordOffer/dp/maxValue.s: swordOffer/dp/maxValue.cc.s
 
-.PHONY : swordOffer/dp/translateNum.s
+.PHONY : swordOffer/dp/maxValue.s
 
 # target to generate assembly for a file
-swordOffer/dp/translateNum.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/translateNum.cc.s
-.PHONY : swordOffer/dp/translateNum.cc.s
+swordOffer/dp/maxValue.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.s
+.PHONY : swordOffer/dp/maxValue.cc.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode"
-	@echo "... swordOffer/dp/translateNum.o"
-	@echo "... swordOffer/dp/translateNum.i"
-	@echo "... swordOffer/dp/translateNum.s"
+	@echo "... swordOffer/dp/maxValue.o"
+	@echo "... swordOffer/dp/maxValue.i"
+	@echo "... swordOffer/dp/maxValue.s"
 .PHONY : help
 
 

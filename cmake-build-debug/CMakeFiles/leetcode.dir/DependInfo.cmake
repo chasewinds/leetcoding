@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/main/cpp/src/leetcode/swordOffer/dp/translateNum.cc" "/Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/swordOffer/dp/translateNum.cc.o"
+  "/Users/main/cpp/src/leetcode/swordOffer/dp/maxValue.cc" "/Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

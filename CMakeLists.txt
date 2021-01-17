@@ -68,7 +68,8 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(leetcode swordOffer/bfs/levelOrder.cc)
 
 #add_executable(leetcode swordOffer/dp/numways.cc)
-add_executable(leetcode swordOffer/dp/translateNum.cc)
+#add_executable(leetcode swordOffer/dp/translateNum.cc)
+add_executable(leetcode swordOffer/dp/maxValue.cc)
 
 
 
