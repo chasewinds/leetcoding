@@ -67,8 +67,8 @@ set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(leetcode swordOffer/bfs/levelOrder.cc)
 
-add_executable(leetcode swordOffer/dp/numways.cc)
-
+#add_executable(leetcode swordOffer/dp/numways.cc)
+#add_executable(leetcode swordOffer/dp/translateNum.cc)
 
 
 
@@ -88,6 +88,9 @@ add_executable(leetcode swordOffer/dp/numways.cc)
 #add_executable(leetcode daily/findRedundantConnection.cc)
 
 #add_executable(leetcode designPattern/factory/factory.cc)
+
+add_executable(leetcode multiThreading/printInOrder.cc)
+
 
 
 

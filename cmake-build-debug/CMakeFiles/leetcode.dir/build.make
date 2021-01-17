@@ -77,27 +77,27 @@ include CMakeFiles/leetcode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/leetcode.dir/flags.make
 
-CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.o: CMakeFiles/leetcode.dir/flags.make
-CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.o: ../swordOffer/dp/numways.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.o -c /Users/main/cpp/src/leetcode/swordOffer/dp/numways.cc
+CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.o: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.o: ../multiThreading/printInOrder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.o -c /Users/main/cpp/src/leetcode/multiThreading/printInOrder.cc
 
-CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/cpp/src/leetcode/swordOffer/dp/numways.cc > CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.i
+CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/cpp/src/leetcode/multiThreading/printInOrder.cc > CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.i
 
-CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/cpp/src/leetcode/swordOffer/dp/numways.cc -o CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.s
+CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/cpp/src/leetcode/multiThreading/printInOrder.cc -o CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.s
 
 # Object files for target leetcode
 leetcode_OBJECTS = \
-"CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.o"
+"CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.o"
 
 # External object files for target leetcode
 leetcode_EXTERNAL_OBJECTS =
 
-leetcode: CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.o
+leetcode: CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.o
 leetcode: CMakeFiles/leetcode.dir/build.make
 leetcode: CMakeFiles/leetcode.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable leetcode"

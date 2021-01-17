@@ -143,32 +143,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
-swordOffer/dp/numways.o: swordOffer/dp/numways.cc.o
+multiThreading/printInOrder.o: multiThreading/printInOrder.cc.o
 
-.PHONY : swordOffer/dp/numways.o
+.PHONY : multiThreading/printInOrder.o
 
 # target to build an object file
-swordOffer/dp/numways.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.o
-.PHONY : swordOffer/dp/numways.cc.o
+multiThreading/printInOrder.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.o
+.PHONY : multiThreading/printInOrder.cc.o
 
-swordOffer/dp/numways.i: swordOffer/dp/numways.cc.i
+multiThreading/printInOrder.i: multiThreading/printInOrder.cc.i
 
-.PHONY : swordOffer/dp/numways.i
+.PHONY : multiThreading/printInOrder.i
 
 # target to preprocess a source file
-swordOffer/dp/numways.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.i
-.PHONY : swordOffer/dp/numways.cc.i
+multiThreading/printInOrder.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.i
+.PHONY : multiThreading/printInOrder.cc.i
 
-swordOffer/dp/numways.s: swordOffer/dp/numways.cc.s
+multiThreading/printInOrder.s: multiThreading/printInOrder.cc.s
 
-.PHONY : swordOffer/dp/numways.s
+.PHONY : multiThreading/printInOrder.s
 
 # target to generate assembly for a file
-swordOffer/dp/numways.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/numways.cc.s
-.PHONY : swordOffer/dp/numways.cc.s
+multiThreading/printInOrder.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/multiThreading/printInOrder.cc.s
+.PHONY : multiThreading/printInOrder.cc.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode"
-	@echo "... swordOffer/dp/numways.o"
-	@echo "... swordOffer/dp/numways.i"
-	@echo "... swordOffer/dp/numways.s"
+	@echo "... multiThreading/printInOrder.o"
+	@echo "... multiThreading/printInOrder.i"
+	@echo "... multiThreading/printInOrder.s"
 .PHONY : help
 
 
