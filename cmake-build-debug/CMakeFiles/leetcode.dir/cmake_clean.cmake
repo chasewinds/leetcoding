@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.o"
+  "CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.o"
   "leetcode"
   "leetcode.pdb"
 )

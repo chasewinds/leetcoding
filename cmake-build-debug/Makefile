@@ -143,32 +143,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
-swordOffer/dp/maxValue.o: swordOffer/dp/maxValue.cc.o
+swordOffer/tree/lowestCommonAncestor.o: swordOffer/tree/lowestCommonAncestor.cc.o
 
-.PHONY : swordOffer/dp/maxValue.o
+.PHONY : swordOffer/tree/lowestCommonAncestor.o
 
 # target to build an object file
-swordOffer/dp/maxValue.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.o
-.PHONY : swordOffer/dp/maxValue.cc.o
+swordOffer/tree/lowestCommonAncestor.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.o
+.PHONY : swordOffer/tree/lowestCommonAncestor.cc.o
 
-swordOffer/dp/maxValue.i: swordOffer/dp/maxValue.cc.i
+swordOffer/tree/lowestCommonAncestor.i: swordOffer/tree/lowestCommonAncestor.cc.i
 
-.PHONY : swordOffer/dp/maxValue.i
+.PHONY : swordOffer/tree/lowestCommonAncestor.i
 
 # target to preprocess a source file
-swordOffer/dp/maxValue.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.i
-.PHONY : swordOffer/dp/maxValue.cc.i
+swordOffer/tree/lowestCommonAncestor.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.i
+.PHONY : swordOffer/tree/lowestCommonAncestor.cc.i
 
-swordOffer/dp/maxValue.s: swordOffer/dp/maxValue.cc.s
+swordOffer/tree/lowestCommonAncestor.s: swordOffer/tree/lowestCommonAncestor.cc.s
 
-.PHONY : swordOffer/dp/maxValue.s
+.PHONY : swordOffer/tree/lowestCommonAncestor.s
 
 # target to generate assembly for a file
-swordOffer/dp/maxValue.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.s
-.PHONY : swordOffer/dp/maxValue.cc.s
+swordOffer/tree/lowestCommonAncestor.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.s
+.PHONY : swordOffer/tree/lowestCommonAncestor.cc.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode"
-	@echo "... swordOffer/dp/maxValue.o"
-	@echo "... swordOffer/dp/maxValue.i"
-	@echo "... swordOffer/dp/maxValue.s"
+	@echo "... swordOffer/tree/lowestCommonAncestor.o"
+	@echo "... swordOffer/tree/lowestCommonAncestor.i"
+	@echo "... swordOffer/tree/lowestCommonAncestor.s"
 .PHONY : help
 
 
