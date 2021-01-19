@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode.dir/frequencyTopic2020/classical/maxProfit.cc.o"
+  "CMakeFiles/leetcode.dir/frequencyTopic2020/classical/isPalindrome.cc.o"
   "leetcode"
   "leetcode.pdb"
 )
