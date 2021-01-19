@@ -64,22 +64,20 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(leetcode swordOffer/dfs/isSymmetric.cc)
 #add_executable(leetcode swordOffer/dfs/kthLargest.cc)
 #add_executable(leetcode swordOffer/dfs/maxDepth.cc)
-
 #add_executable(leetcode swordOffer/bfs/levelOrder.cc)
-
 #add_executable(leetcode swordOffer/dp/numways.cc)
 #add_executable(leetcode swordOffer/dp/translateNum.cc)
 #add_executable(leetcode swordOffer/dp/maxValue.cc)
-
 #add_executable(leetcode swordOffer/tree/lowestCommonAncestor.cc)
-
-add_executable(leetcode swordOffer/recursion/isSubStructure.cc)
+#add_executable(leetcode swordOffer/recursion/isSubStructure.cc)
 
 
 #add_executable(leetcode crackingTheCodingInterview/compressString.cc)
 #add_executable(leetcode crackingTheCodingInterview/isUnique.cc)
 #add_executable(leetcode crackingTheCodingInterview/mergeVector.cc)
 #add_executable(leetcode crackingTheCodingInterview/minStack.cc)
+
+add_executable(leetcode frequencyTopic2020/classical/maxProfit.cc)
 
 #add_executable(leetcode dp/maxProduct.cc)
 #add_executable(leetcode dp/maxSubarraySumCircular.cc)

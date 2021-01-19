@@ -143,32 +143,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
-swordOffer/recursion/isSubStructure.o: swordOffer/recursion/isSubStructure.cc.o
+frequencyTopic2020/classical/maxProfit.o: frequencyTopic2020/classical/maxProfit.cc.o
 
-.PHONY : swordOffer/recursion/isSubStructure.o
+.PHONY : frequencyTopic2020/classical/maxProfit.o
 
 # target to build an object file
-swordOffer/recursion/isSubStructure.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.o
-.PHONY : swordOffer/recursion/isSubStructure.cc.o
+frequencyTopic2020/classical/maxProfit.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/frequencyTopic2020/classical/maxProfit.cc.o
+.PHONY : frequencyTopic2020/classical/maxProfit.cc.o
 
-swordOffer/recursion/isSubStructure.i: swordOffer/recursion/isSubStructure.cc.i
+frequencyTopic2020/classical/maxProfit.i: frequencyTopic2020/classical/maxProfit.cc.i
 
-.PHONY : swordOffer/recursion/isSubStructure.i
+.PHONY : frequencyTopic2020/classical/maxProfit.i
 
 # target to preprocess a source file
-swordOffer/recursion/isSubStructure.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.i
-.PHONY : swordOffer/recursion/isSubStructure.cc.i
+frequencyTopic2020/classical/maxProfit.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/frequencyTopic2020/classical/maxProfit.cc.i
+.PHONY : frequencyTopic2020/classical/maxProfit.cc.i
 
-swordOffer/recursion/isSubStructure.s: swordOffer/recursion/isSubStructure.cc.s
+frequencyTopic2020/classical/maxProfit.s: frequencyTopic2020/classical/maxProfit.cc.s
 
-.PHONY : swordOffer/recursion/isSubStructure.s
+.PHONY : frequencyTopic2020/classical/maxProfit.s
 
 # target to generate assembly for a file
-swordOffer/recursion/isSubStructure.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.s
-.PHONY : swordOffer/recursion/isSubStructure.cc.s
+frequencyTopic2020/classical/maxProfit.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/frequencyTopic2020/classical/maxProfit.cc.s
+.PHONY : frequencyTopic2020/classical/maxProfit.cc.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode"
-	@echo "... swordOffer/recursion/isSubStructure.o"
-	@echo "... swordOffer/recursion/isSubStructure.i"
-	@echo "... swordOffer/recursion/isSubStructure.s"
+	@echo "... frequencyTopic2020/classical/maxProfit.o"
+	@echo "... frequencyTopic2020/classical/maxProfit.i"
+	@echo "... frequencyTopic2020/classical/maxProfit.s"
 .PHONY : help
 
 
