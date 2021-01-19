@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.o"
+  "CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.o"
   "leetcode"
   "leetcode.pdb"
 )

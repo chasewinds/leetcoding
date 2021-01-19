@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/main/cpp/src/leetcode/swordOffer/tree/lowestCommonAncestor.cc" "/Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.o"
+  "/Users/main/cpp/src/leetcode/swordOffer/recursion/isSubStructure.cc" "/Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -71,7 +71,9 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(leetcode swordOffer/dp/translateNum.cc)
 #add_executable(leetcode swordOffer/dp/maxValue.cc)
 
-add_executable(leetcode swordOffer/tree/lowestCommonAncestor.cc)
+#add_executable(leetcode swordOffer/tree/lowestCommonAncestor.cc)
+
+add_executable(leetcode swordOffer/recursion/isSubStructure.cc)
 
 
 #add_executable(leetcode crackingTheCodingInterview/compressString.cc)

@@ -77,27 +77,27 @@ include CMakeFiles/leetcode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/leetcode.dir/flags.make
 
-CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.o: CMakeFiles/leetcode.dir/flags.make
-CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.o: ../swordOffer/tree/lowestCommonAncestor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.o -c /Users/main/cpp/src/leetcode/swordOffer/tree/lowestCommonAncestor.cc
+CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.o: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.o: ../swordOffer/recursion/isSubStructure.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.o -c /Users/main/cpp/src/leetcode/swordOffer/recursion/isSubStructure.cc
 
-CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/cpp/src/leetcode/swordOffer/tree/lowestCommonAncestor.cc > CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.i
+CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/cpp/src/leetcode/swordOffer/recursion/isSubStructure.cc > CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.i
 
-CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/cpp/src/leetcode/swordOffer/tree/lowestCommonAncestor.cc -o CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.s
+CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/cpp/src/leetcode/swordOffer/recursion/isSubStructure.cc -o CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.s
 
 # Object files for target leetcode
 leetcode_OBJECTS = \
-"CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.o"
+"CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.o"
 
 # External object files for target leetcode
 leetcode_EXTERNAL_OBJECTS =
 
-leetcode: CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.o
+leetcode: CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.o
 leetcode: CMakeFiles/leetcode.dir/build.make
 leetcode: CMakeFiles/leetcode.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable leetcode"

@@ -143,32 +143,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
-swordOffer/tree/lowestCommonAncestor.o: swordOffer/tree/lowestCommonAncestor.cc.o
+swordOffer/recursion/isSubStructure.o: swordOffer/recursion/isSubStructure.cc.o
 
-.PHONY : swordOffer/tree/lowestCommonAncestor.o
+.PHONY : swordOffer/recursion/isSubStructure.o
 
 # target to build an object file
-swordOffer/tree/lowestCommonAncestor.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.o
-.PHONY : swordOffer/tree/lowestCommonAncestor.cc.o
+swordOffer/recursion/isSubStructure.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.o
+.PHONY : swordOffer/recursion/isSubStructure.cc.o
 
-swordOffer/tree/lowestCommonAncestor.i: swordOffer/tree/lowestCommonAncestor.cc.i
+swordOffer/recursion/isSubStructure.i: swordOffer/recursion/isSubStructure.cc.i
 
-.PHONY : swordOffer/tree/lowestCommonAncestor.i
+.PHONY : swordOffer/recursion/isSubStructure.i
 
 # target to preprocess a source file
-swordOffer/tree/lowestCommonAncestor.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.i
-.PHONY : swordOffer/tree/lowestCommonAncestor.cc.i
+swordOffer/recursion/isSubStructure.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.i
+.PHONY : swordOffer/recursion/isSubStructure.cc.i
 
-swordOffer/tree/lowestCommonAncestor.s: swordOffer/tree/lowestCommonAncestor.cc.s
+swordOffer/recursion/isSubStructure.s: swordOffer/recursion/isSubStructure.cc.s
 
-.PHONY : swordOffer/tree/lowestCommonAncestor.s
+.PHONY : swordOffer/recursion/isSubStructure.s
 
 # target to generate assembly for a file
-swordOffer/tree/lowestCommonAncestor.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/tree/lowestCommonAncestor.cc.s
-.PHONY : swordOffer/tree/lowestCommonAncestor.cc.s
+swordOffer/recursion/isSubStructure.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/recursion/isSubStructure.cc.s
+.PHONY : swordOffer/recursion/isSubStructure.cc.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode"
-	@echo "... swordOffer/tree/lowestCommonAncestor.o"
-	@echo "... swordOffer/tree/lowestCommonAncestor.i"
-	@echo "... swordOffer/tree/lowestCommonAncestor.s"
+	@echo "... swordOffer/recursion/isSubStructure.o"
+	@echo "... swordOffer/recursion/isSubStructure.i"
+	@echo "... swordOffer/recursion/isSubStructure.s"
 .PHONY : help
 
 
