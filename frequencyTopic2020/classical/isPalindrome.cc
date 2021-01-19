@@ -14,14 +14,12 @@ class Solution {
     int j = s.size() - 1;
     while (i <= j) {
       while (i < s.size() && !isalnum(s[i])) {
-        cout << "i not valid" << endl;
         i++;
       }
       while (j >= 0 && !isalnum(s[j])) {
         j--;
       }
       if (i < s.size() && j >= 0) {
-        cout << "in" << endl;
         if (!seam(s[i], s[j])) {
           return false;
         }
@@ -38,7 +36,6 @@ class Solution {
     return x != ' ' && ((x >= 'a' && x <= 'z') || (x >= 'A' && x <= 'Z'));
   }
   bool seam(char x, char y) {
-    cout << "x: " << x << " y: " << y << endl;
     if (x == y) {
       return true;
     }
