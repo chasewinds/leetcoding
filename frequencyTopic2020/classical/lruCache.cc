@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// runtime beat 99.83%, memo beat 97.42%
 struct LRUNode {
   int key;
   int value;
