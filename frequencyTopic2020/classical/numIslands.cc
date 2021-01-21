@@ -93,7 +93,7 @@ class Solution {
 };
 */
 
-// union find solution, runtime 96.94% but memo just 12.06%.
+// union find solution, runtime 96.94% but memo just 12.06%
 class UnionFind {
  private:
   vector<int> parent;
