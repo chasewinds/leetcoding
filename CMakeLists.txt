@@ -79,7 +79,10 @@ set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(leetcode frequencyTopic2020/classical/maxProfit.cc)
 #add_executable(leetcode frequencyTopic2020/classical/isPalindrome.cc)
-add_executable(leetcode frequencyTopic2020/list/lastStoneWeight.cc)
+#add_executable(leetcode frequencyTopic2020/list/lastStoneWeight.cc)
+#add_executable(leetcode frequencyTopic2020/str/addString.cc)
+add_executable(leetcode frequencyTopic2020/str/mostCommonWord.cc)
+
 
 
 #add_executable(leetcode dp/maxProduct.cc)

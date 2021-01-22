@@ -143,32 +143,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
-frequencyTopic2020/list/lastStoneWeight.o: frequencyTopic2020/list/lastStoneWeight.cc.o
+frequencyTopic2020/str/mostCommonWord.o: frequencyTopic2020/str/mostCommonWord.cc.o
 
-.PHONY : frequencyTopic2020/list/lastStoneWeight.o
+.PHONY : frequencyTopic2020/str/mostCommonWord.o
 
 # target to build an object file
-frequencyTopic2020/list/lastStoneWeight.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/frequencyTopic2020/list/lastStoneWeight.cc.o
-.PHONY : frequencyTopic2020/list/lastStoneWeight.cc.o
+frequencyTopic2020/str/mostCommonWord.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.o
+.PHONY : frequencyTopic2020/str/mostCommonWord.cc.o
 
-frequencyTopic2020/list/lastStoneWeight.i: frequencyTopic2020/list/lastStoneWeight.cc.i
+frequencyTopic2020/str/mostCommonWord.i: frequencyTopic2020/str/mostCommonWord.cc.i
 
-.PHONY : frequencyTopic2020/list/lastStoneWeight.i
+.PHONY : frequencyTopic2020/str/mostCommonWord.i
 
 # target to preprocess a source file
-frequencyTopic2020/list/lastStoneWeight.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/frequencyTopic2020/list/lastStoneWeight.cc.i
-.PHONY : frequencyTopic2020/list/lastStoneWeight.cc.i
+frequencyTopic2020/str/mostCommonWord.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.i
+.PHONY : frequencyTopic2020/str/mostCommonWord.cc.i
 
-frequencyTopic2020/list/lastStoneWeight.s: frequencyTopic2020/list/lastStoneWeight.cc.s
+frequencyTopic2020/str/mostCommonWord.s: frequencyTopic2020/str/mostCommonWord.cc.s
 
-.PHONY : frequencyTopic2020/list/lastStoneWeight.s
+.PHONY : frequencyTopic2020/str/mostCommonWord.s
 
 # target to generate assembly for a file
-frequencyTopic2020/list/lastStoneWeight.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/frequencyTopic2020/list/lastStoneWeight.cc.s
-.PHONY : frequencyTopic2020/list/lastStoneWeight.cc.s
+frequencyTopic2020/str/mostCommonWord.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.s
+.PHONY : frequencyTopic2020/str/mostCommonWord.cc.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode"
-	@echo "... frequencyTopic2020/list/lastStoneWeight.o"
-	@echo "... frequencyTopic2020/list/lastStoneWeight.i"
-	@echo "... frequencyTopic2020/list/lastStoneWeight.s"
+	@echo "... frequencyTopic2020/str/mostCommonWord.o"
+	@echo "... frequencyTopic2020/str/mostCommonWord.i"
+	@echo "... frequencyTopic2020/str/mostCommonWord.s"
 .PHONY : help
 
 

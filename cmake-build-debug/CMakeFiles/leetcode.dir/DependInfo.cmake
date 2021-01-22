@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/main/cpp/src/leetcode/frequencyTopic2020/list/lastStoneWeight.cc" "/Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/frequencyTopic2020/list/lastStoneWeight.cc.o"
+  "/Users/main/cpp/src/leetcode/frequencyTopic2020/str/mostCommonWord.cc" "/Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

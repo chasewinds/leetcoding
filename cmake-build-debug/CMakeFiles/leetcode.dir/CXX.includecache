@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/main/cpp/src/leetcode/frequencyTopic2020/classical/isPalindrome.cc
+/Users/main/cpp/src/leetcode/frequencyTopic2020/str/mostCommonWord.cc
 iostream
 -
 string
+-
+unordered_map
+-
+vector
 -
 
