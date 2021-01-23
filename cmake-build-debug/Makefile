@@ -143,32 +143,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
-swordOffer/dp/maxValue.o: swordOffer/dp/maxValue.cc.o
+frequencyTopic2020/str/mostCommonWord.o: frequencyTopic2020/str/mostCommonWord.cc.o
 
-.PHONY : swordOffer/dp/maxValue.o
+.PHONY : frequencyTopic2020/str/mostCommonWord.o
 
 # target to build an object file
-swordOffer/dp/maxValue.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.o
-.PHONY : swordOffer/dp/maxValue.cc.o
+frequencyTopic2020/str/mostCommonWord.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.o
+.PHONY : frequencyTopic2020/str/mostCommonWord.cc.o
 
-swordOffer/dp/maxValue.i: swordOffer/dp/maxValue.cc.i
+frequencyTopic2020/str/mostCommonWord.i: frequencyTopic2020/str/mostCommonWord.cc.i
 
-.PHONY : swordOffer/dp/maxValue.i
+.PHONY : frequencyTopic2020/str/mostCommonWord.i
 
 # target to preprocess a source file
-swordOffer/dp/maxValue.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.i
-.PHONY : swordOffer/dp/maxValue.cc.i
+frequencyTopic2020/str/mostCommonWord.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.i
+.PHONY : frequencyTopic2020/str/mostCommonWord.cc.i
 
-swordOffer/dp/maxValue.s: swordOffer/dp/maxValue.cc.s
+frequencyTopic2020/str/mostCommonWord.s: frequencyTopic2020/str/mostCommonWord.cc.s
 
-.PHONY : swordOffer/dp/maxValue.s
+.PHONY : frequencyTopic2020/str/mostCommonWord.s
 
 # target to generate assembly for a file
-swordOffer/dp/maxValue.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.s
-.PHONY : swordOffer/dp/maxValue.cc.s
+frequencyTopic2020/str/mostCommonWord.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.s
+.PHONY : frequencyTopic2020/str/mostCommonWord.cc.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode"
-	@echo "... swordOffer/dp/maxValue.o"
-	@echo "... swordOffer/dp/maxValue.i"
-	@echo "... swordOffer/dp/maxValue.s"
+	@echo "... frequencyTopic2020/str/mostCommonWord.o"
+	@echo "... frequencyTopic2020/str/mostCommonWord.i"
+	@echo "... frequencyTopic2020/str/mostCommonWord.s"
 .PHONY : help
 
 

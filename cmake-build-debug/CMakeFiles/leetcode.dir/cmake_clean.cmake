@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.o"
+  "CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.o"
   "leetcode"
   "leetcode.pdb"
 )

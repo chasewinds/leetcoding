@@ -77,27 +77,27 @@ include CMakeFiles/leetcode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/leetcode.dir/flags.make
 
-CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.o: CMakeFiles/leetcode.dir/flags.make
-CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.o: ../swordOffer/dp/maxValue.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.o -c /Users/main/cpp/src/leetcode/swordOffer/dp/maxValue.cc
+CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.o: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.o: ../frequencyTopic2020/str/mostCommonWord.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.o -c /Users/main/cpp/src/leetcode/frequencyTopic2020/str/mostCommonWord.cc
 
-CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/cpp/src/leetcode/swordOffer/dp/maxValue.cc > CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.i
+CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/cpp/src/leetcode/frequencyTopic2020/str/mostCommonWord.cc > CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.i
 
-CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/cpp/src/leetcode/swordOffer/dp/maxValue.cc -o CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.s
+CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/cpp/src/leetcode/frequencyTopic2020/str/mostCommonWord.cc -o CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.s
 
 # Object files for target leetcode
 leetcode_OBJECTS = \
-"CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.o"
+"CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.o"
 
 # External object files for target leetcode
 leetcode_EXTERNAL_OBJECTS =
 
-leetcode: CMakeFiles/leetcode.dir/swordOffer/dp/maxValue.cc.o
+leetcode: CMakeFiles/leetcode.dir/frequencyTopic2020/str/mostCommonWord.cc.o
 leetcode: CMakeFiles/leetcode.dir/build.make
 leetcode: CMakeFiles/leetcode.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/main/cpp/src/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable leetcode"
