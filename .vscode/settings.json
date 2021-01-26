@@ -1,9 +1,0 @@
-{
-    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-    "files.associations": {
-        "deque": "cpp",
-        "__split_buffer": "cpp",
-        "string": "cpp",
-        "vector": "cpp"
-    }
-}
