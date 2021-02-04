@@ -1,120 +1,95 @@
-type BiLinkList struct {
-    key int 
-    val int
-    next *BiLinkList
-    front *BiLinkList
-}
+package main
 
 type LRUCache struct {
-    head *BiLinkList
-    tail *BiLinkList
-    key2node map[int]*BiLinkList
-    capacity int
+    head, tail *DLinkList
+    capacity, size int
+    key2node map[int]*DLinkList
+}
+
+type DLinkList struct {
+    key, val int
+    next, front *DLinkList
 }
 
 func Constructor(capacity int) LRUCache {
-    return LRUCache{
-        key2node: make(map[int]*BiLinkList), 
+    l := LRUCache {
+        head: &DLinkList{key: 0, val: 0},
+        tail: &DLinkList{key: 0, val: 0},
         capacity: capacity,
+        key2node : make(map[int]*DLinkList),
     }
+    l.head.next = l.tail
+    l.tail.front = l.head
+    return l
 }
 
 func (this *LRUCache) Get(key int) int {
-    node, ok := this.key2node[key]
-    if !ok {
-        return -1;
+    node, found := this.key2node[key]
+    if !found {
+        return -1
     }
-    if node == this.head {
-        return this.head.val
-    }
-    if node == this.tail {
-        this.tail = node.front
-        this.tail.next = nil
-        
-        node.front = nil
-        node.next = this.head
-        this.head.front = node
-        this.head = node
-        return this.head.val
-    }
-    // in mid
-    node.front.next = node.next
-    node.next.front = node.front
-
-    node.front = nil
-    node.next = this.head
-    this.head.front = node
-    this.head = node
-    return this.head.val
+    this.moveToHead(node)
+    return node.val
 }
 
-func (this *LRUCache) Put(key int, value int)  {
+func (this *LRUCache) Put(key, value int) {
+    /*
     node, found := this.key2node[key]
-    if len(this.key2node) < this.capacity {
-        if !found {
-            node := &BiLinkList{key: key, val: value}
-            this.key2node[key] = node
-            if this.head == nil {
-                this.head = node
-                this.tail = node
-                return;
-            }
-            node.next = this.head
-            this.head.front = node
-            this.head = node
-            return
+    if found {
+        if value != node.val {
+            node.val = value
         }
-    }
-
-    // not exist and map is full
-    if !found {
-        // delete tail
-        delete(this.key2node, this.tail.key)
-        // fmt.Println("targe delete", this.tail.key)
-        // delete tail
-        if this.tail != nil {
-            if this.tail.front == nil {
-                this.head = nil
-                this.tail = nil 
-            } else {
-                this.tail = this.tail.front
-                this.tail.next = nil
-            }
-        }
-
-        // create new node
-        node = &BiLinkList{key: key, val: value}
-        this.key2node[key] = node
-    }
-
-    node.val = value
-    // found, map no need modify, move node to head
-    if this.head == nil {
-        this.head = node
-        this.tail = node
+        this.moveToHead(node)
         return
     }
 
-    if node == this.head {
+    // new node came
+    if len(this.key2node) >= this.capacity {
+        tailKey := this.removeTail()
+        delete(this.key2node, tailKey)
+    }
+    node = &DLinkList{key: key, val: value}
+    this.key2node[key] = node
+    this.insertToHead(node)
+    */
+    node, found := this.key2node[key]
+    if found {
+        // node.val = value
+        this.key2node[key].val = value
+        this.moveToHead(node)
         return
     }
-    // rm node from bi link list 
-    if node == this.tail {
-        this.tail = this.tail.front
-        this.tail.next = nil
-    } else {
-        if node.front != nil {
-            node.front.next = node.next
-        }
-        if node.next != nil {
-            node.next = node.front
-        }
+    node = &DLinkList{key: key, val: value}
+    this.key2node[key] = node
+    this.insertToHead(node)
+    this.size++
+    if (this.size > this.capacity) {
+        tailKey := this.removeTail()
+        delete(this.key2node, tailKey)
+        this.size--
     }
-    
-    // insert on head
-    this.head.front = node
-    node.next = this.head
-    node.front = nil
-    this.head = node
-    return
+}
+
+func (this *LRUCache) moveToHead(node *DLinkList) {
+    this.removeNode(node)
+    this.insertToHead(node)
+}
+
+func (this *LRUCache) insertToHead(node *DLinkList) {
+    node.front = this.head
+    node.next = this.head.next
+    this.head.next.front = node
+    this.head.next = node
+}
+
+func (this *LRUCache) removeNode(node *DLinkList) {
+    node.front.next = node.next
+    node.next.front = node.front
+}
+
+func (this *LRUCache) removeTail() int {
+    node := this.tail.front
+    val := node.val
+    this.removeNode(node)
+    return val
 }
