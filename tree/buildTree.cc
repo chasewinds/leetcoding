@@ -28,7 +28,7 @@ public:
         }
         int offset = inorder2idx[preorder[s]];
         TreeNode *node = new TreeNode(preorder[s]);
-        // offset - i is length of left_sub_treeg
+        // offset - i is length of left_sub_tree
         node->left = buildByRange(preorder, s + 1 , s + offset - i, inorder, i, offset - 1);
         node->right = buildByRange(preorder, s + offset - i + 1, e, inorder, offset + 1, j);
 
