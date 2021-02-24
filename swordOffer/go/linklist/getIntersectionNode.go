@@ -36,9 +36,6 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
 			b = headA
 			cb = true
 		}
-		// if ca && cb && (a == nil || b == nil) {
-		// 	return nil
-		// }
 	}
 
 	return a
